@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My resume</title>
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        body {
+            background-color: blueviolet;
+            font-family: Arial, sans-serif;
+        }
+
+        .container-nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        .container-nav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .container-nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .container-nav a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .site-divider {
+            border-style: solid;
+            color: darkorange;
+            margin-top: 1px;
+        }
+
+        .site-divider2 {
+            border-style: solid;
+            color: black;
+            margin-top: 1px;
+        }
+
+        .container {
+            background-color: darkorange;
+            margin: 10px;
+            margin-top: 50px;
+            padding: 10px;
+            border: 2px solid #dee2e6;
+        }
+
+        h3 {
+            font-size: 40px;
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+
+        p, li {
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+        
+        @media only screen and (max-width: 768px) {
+            .container-nav a {
+                font-size: 14px;
+            }
+
+            h3 {
+                font-size: 30px;
+            }
+
+            .container {
+                margin: 5%;
+            }
+        }
+
+        @media only screen and (min-width: 1200px) {
+            .container-nav a {
+                font-size: 20px;
+            }
+
+            h1 {
+                font-size: 80px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container-nav">
+        <ul><a href="index.html">Home</a></ul>
+        <ul><a href="resume.html">My Resume</a></ul>
+        <ul><a href="schedule.html">Class Schedule</a></ul>
+        <ul><a href="">Site</a></ul>
+    </div>
+
+    <div class="site-divider"></div>
+
+    <div class="container">
+        <h3>Jerome orbita</h3>
+        <div class="site-divider2"></div>
+        <h2>Poor developer</h2>
+        <p>Email: <a href="https://mail.yahoo.com/d/compose">jorbita04@yahoo.com</a></p>
+        <p>Contact number: 09281362891</p>
+        <div class="site-divider2"></div>
+        <h2>Education</h2>
+        <p>Cavite State University Indang Main Campus</p>
+        <p>Student Number: 202105484</p>
+        <div class="site-divider2"></div>
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Playing online and offline games</li>
+            <li>Live streaming</li>
+            <li>Online Crypto Gambling</li>
+            <li>Others</li>
+        </ul>
+    </div>
+    
+</body>
+</html>
